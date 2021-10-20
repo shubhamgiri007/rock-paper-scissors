@@ -31,7 +31,7 @@ const game = () => {
       options.forEach(option => {
         option.addEventListener("click", function() {
           //Computer Choice
-          const computerNumber = Math.floor(Math.random() * 3);
+          const computerNumber = Math.floor(Math.random() * 2);
           const computerChoice = computerOptions[computerNumber];
   
           setTimeout(() => {
